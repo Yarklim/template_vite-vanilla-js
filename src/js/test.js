@@ -1,1 +1,1 @@
-console.log('first');
+console.log('test import js');
