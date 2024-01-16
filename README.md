@@ -1,10 +1,10 @@
-# Start Template - Vite Vanilla JS
+# Start Template - Vite Vanilla JS + SASS
 ## Tech Stack:
 * Vite  
 * JavaScript  
 
 ## Plugins:
-* Sass  
+* sass  
 * glob  
 * vite-plugin-html-inject  
 * vite-plugin-full-reload  

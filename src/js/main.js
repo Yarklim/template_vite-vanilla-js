@@ -1,2 +1,2 @@
-import '../scss/style.module.scss';
+import '../sass/style.scss';
 import './test';
