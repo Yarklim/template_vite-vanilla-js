@@ -1,0 +1,35 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #000;
+
+  scroll-behavior: smooth;
+}
+
+.no-scroll {
+  overflow: hidden;
+
+  padding-right: 15px;
+}
+
+.page__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+button {
+  background-color: aqua;
+}
