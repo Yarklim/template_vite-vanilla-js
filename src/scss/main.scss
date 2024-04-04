@@ -1,13 +1,13 @@
-// =========== Fonts ============
+/* =========== Fonts ============ */
 // @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-// =========== Base =============
+/* =========== Base and Utils ============= */
 @import url('./base/reset.scss');
+@import url('./utils/variables.scss');
 @import url('./base/common.scss');
-// =========== Utils ============
 
-// ========= Components =========
+/* ========= Components ========= */
 @import url('./components/header.scss');
 @import url('./components/footer.scss');
 
-// ========== Layouts ===========
+/* ========== Layouts =========== */
