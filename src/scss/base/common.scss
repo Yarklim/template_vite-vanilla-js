@@ -39,5 +39,21 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   padding: var(--padding-container);
+}
+
+/* ========== Typography =========*/
+.main__title {
+  font-family: var(--main-font-bold);
+  font-size: var(--main-font-bold);
+}
+
+.secondary__title {
+  font-family: var(--main-font-italic);
+  font-size: var(--secondary-title-size);
+}
+
+.main__paragraph {
+  font-size: var(--main-paragraph-size);
 }

@@ -1,11 +1,32 @@
 :root {
+  /* ========= Screens ========*/
+  --mobile-screen: 320px;
+  --tablet-screen: 768px;
+  --desctop-screen: 1200px;
+  --max-screen: 1920px;
+
   /* ========= Fonts ========= */
-  --main-font-regular: 'Roboto', sans-serif;
+  --main-font-regular: 'Roboto-Regular', sans-serif;
+  --main-font-bold: 'Roboto-Bold', sans-serif;
+  --main-font-italic: 'Roboto-Italic', sans-serif;
+
+  /* ====== Fonts sizes ====== */
+  --main-title-size: clamp(1.125rem, 0.787rem + 1.69vw, 2.813rem); /* 18 - 45 */
+  --secondary-title-size: clamp(
+    0.875rem,
+    0.675rem + 1vw,
+    1.875rem
+  ); /* 14 - 30 */
+  --main-paragraph-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem); /* 12 - 16 */
+
+  /* === Fonts line-height === */
 
   /* ========= Colors ======== */
   --main-color: #0f0f0f;
 
   /* ======= Backgrounds ======*/
+
+  /* ======== Margins ======== */
 
   /* ======== Paddings ========*/
   --padding-container: 0 clamp(0.625rem, -0.5rem + 5.63vw, 6.25rem); /* 10 - 100 */
