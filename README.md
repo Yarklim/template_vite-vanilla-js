@@ -6,5 +6,7 @@
 ## Plugins:
 * sass  
 * glob  
+* autoprefixer  
+* cross-env  
 * vite-plugin-html-inject  
 * vite-plugin-full-reload  
