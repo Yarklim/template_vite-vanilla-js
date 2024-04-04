@@ -5,15 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/template_vite-vanilla-js/",
+    "build": "cross-env BUILD_TYPE=dev vite build --base=/template_vite-vanilla-js/",
     "preview": "vite preview"
   },
+  "browsersList": [
+    "cover 99.5%"
+  ],
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
     "glob": "^8.1.0",
     "sass": "^1.70.0",
     "vite": "^4.0.5"
   },
-  "author": "Yarklim <yarklim@gmail.com>",
+  "author": "Yaroslav Klimas <yarklim@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
