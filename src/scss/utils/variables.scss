@@ -6,11 +6,18 @@
   --max-screen: 1920px;
 
   /* ========= Fonts ========= */
-  --main-font-regular: 'Roboto-Regular', sans-serif;
-  --main-font-bold: 'Roboto-Bold', sans-serif;
-  --main-font-italic: 'Roboto-Italic', sans-serif;
+  --main-title-font: 'Montserrat-Bold', sans-serif;
+  --extra-title-font: 'Montserrat-ExtraBold', sans-serif;
+  --secondary-title-font: 'Montserrat-Medium', sans-serif;
+  --thin-title-font: 'Montserrat-Regular', sans-serif;
+
+  --main-paragraph-font: 'Nunito-Regular', sans-serif;
+  --extra-paragraph-font: 'Nunito-Bold', sans-serif;
+  --secondary-paragraph-font: 'Nunito-Medium', sans-serif;
+  --thin-paragraph-font: 'Nunito-Light', sans-serif;
 
   /* ====== Fonts sizes ====== */
+  --extra-title-size: clamp(1.25rem, 0.563rem + 3.44vw, 4.688rem); /* 20 - 75 */
   --main-title-size: clamp(1.125rem, 0.787rem + 1.69vw, 2.813rem); /* 18 - 45 */
   --secondary-title-size: clamp(
     0.875rem,
@@ -25,8 +32,6 @@
   --main-color: #0f0f0f;
 
   /* ======= Backgrounds ======*/
-
-  /* ======== Margins ======== */
 
   /* ======== Paddings ========*/
   --padding-container: 0 clamp(0.625rem, -0.5rem + 5.63vw, 6.25rem); /* 10 - 100 */

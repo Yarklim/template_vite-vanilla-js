@@ -1,0 +1,44 @@
+/* ========= Titles ======== */
+.extra__title {
+  font-family: var(--extra-title-font);
+  font-size: var(--main-title-size);
+  font-weight: 800;
+}
+
+.main__title {
+  font-family: var(--main-title-font);
+  font-size: var(--main-title-size);
+  font-weight: 700;
+}
+
+.secondary__title {
+  font-family: var(--secondary-title-font);
+  font-size: var(--secondary-title-size);
+  font-weight: 500;
+}
+
+.thin__title {
+  font-family: var(--thin-title-font);
+  font-size: var(--secondary-title-size);
+  font-weight: 400;
+}
+
+/* ========= Paragraphs ======== */
+.extra__paragraph {
+  font-family: var(--extra-paragraph-font);
+  font-size: var(--main-paragraph-size);
+}
+
+.main__paragraph {
+  font-size: var(--main-paragraph-size);
+}
+
+.secondary__paragraph {
+  font-family: var(--secondary-paragraph-font);
+  font-size: var(--main-paragraph-size);
+}
+
+.thin__paragraph {
+  font-family: var(--thin-paragraph-font);
+  font-size: var(--main-paragraph-size);
+}

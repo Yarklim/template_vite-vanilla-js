@@ -1,11 +1,9 @@
-@import '../utils/fonts.scss';
-
 html,
 body {
   width: 100%;
   height: 100%;
 
-  font-family: var(--main-font-regular);
+  font-family: var(--main-paragraph-font);
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -41,19 +39,4 @@ body {
 .container {
   margin: 0 auto;
   padding: var(--padding-container);
-}
-
-/* ========== Typography =========*/
-.main__title {
-  font-family: var(--main-font-bold);
-  font-size: var(--main-title-size);
-}
-
-.secondary__title {
-  font-family: var(--main-font-italic);
-  font-size: var(--secondary-title-size);
-}
-
-.main__paragraph {
-  font-size: var(--main-paragraph-size);
 }

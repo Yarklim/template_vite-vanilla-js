@@ -1,9 +1,10 @@
 /* =========== Fonts ============ */
-// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('./utils/fonts.scss');
 
 /* =========== Base and Utils ============= */
 @import url('./base/reset.scss');
 @import url('./utils/variables.scss');
+@import url('./base/typography.scss');
 @import url('./base/common.scss');
 
 /* ========= Components ========= */
