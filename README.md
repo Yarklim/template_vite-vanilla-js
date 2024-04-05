@@ -2,6 +2,8 @@
 ## Tech Stack:
 * Vite  
 * JavaScript  
+* HTML5  
+* SCSS3  
 
 ## Plugins:
 * sass  
